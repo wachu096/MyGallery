@@ -1,6 +1,6 @@
 .divTitle{
 	text-align: center;
-	background-image: radial-gradient(#f7f7f5, #f7f7f5, #e8e8e3);
+	background-image: radial-gradient(#f7f7f5, #dededc, #0f5adb);
 }
 
 .divTitle h1{
@@ -52,9 +52,6 @@ div.gallery img {
 div.gallery {
   width: 25%;
 }
-button#addImageButton, button#deleteImageButton, .inputfile + label{
-	width: 35%;
-}
 }
 
 @media(max-width: 468px){
@@ -65,111 +62,6 @@ div.gallery {
 
 /*--------------------------------------------------------*/
 
-form{
-	padding: 0 20px 20px 20px;
-}
-
-button#addImageButton{
-	width: 20%;
-	border: none;
-	background-color: #4CAF50;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 18px;
-	border-radius: 7px;
-	display: inline-block;
-}
-
-button#addImageButton:hover{
-	background-color: #46a049;
-}
-
-
-button#deleteImageButton{
-	background-color: #f44336;
-	width: 20%;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 18px;
-	border-radius: 7px;
-	display: inline-block;
-}
-
-button#deleteImageButton:hover{
-	background-color: #da190b;
-}
-
-.inputfile {
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
-}
-
-.inputfile + label {
-  background-color: #008CBA;
-  width: 20%;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  border-radius: 7px;
-}
-
-.inputfile:focus + label,
-.inputfile + label:hover {
-    background-color: #007399;
-}
-
-.inputfile + label {
-	cursor: pointer;
-}
-
-@media(max-width: 950px){
-button#addImageButton, button#deleteImageButton, .inputfile + label{
-	width: 28%;
-}
-}
-
-@media(max-width: 768px){
-button#addImageButton, button#deleteImageButton, .inputfile + label{
-	width: 30%;
-}
-}
-
-@media(max-width: 680px){
-button#addImageButton, button#deleteImageButton, .inputfile + label{
-	width: 35%;
-}
-}
-
-@media(max-width: 650px){
-form{
-	padding-bottom: 0;
-}	
-button#addImageButton{
-	margin-bottom: 5px;
-}
-button#addImageButton, button#deleteImageButton, .inputfile + label{
-	width: 80%;
-}		
-button#addImageButton, button#deleteImageButton{
-	display: block;
-	position: relative;
-	left: 10%;
-}
-}
-/*--------------------------------------------------------*/
 
 /* The Modal (background) */
 .modal {
